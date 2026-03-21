@@ -30,3 +30,52 @@
     margin:15px 0;
     font-size:18px;
 }
+
+/* info section */
+.information-container{
+    padding: 30px;
+    text-align:center;
+}
+.information-container h2{
+    margin-bottom:20px;
+    font-size:32px;
+    color:#0d47a1;
+}
+
+/* nashik card section */
+
+.card-section-container{
+   padding: 10px;
+    text-align:center;
+}
+
+.card-section-container h2{
+    margin-bottom:20px;
+    font-size:32px;
+    color:#0d47a1;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card{
+    background-color: rgb(252, 242, 229);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    margin: 30px;
+    width: 300px;  
+}
+
+.card:hover{
+    transition: 0.3s;
+    transform:translateY(-8px);
+}
