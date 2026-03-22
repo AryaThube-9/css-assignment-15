@@ -17,3 +17,9 @@
     transform: translateY(-8px);
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
+
+@media screen and (max-width:768px) {
+    .gallery-images-container{
+        display: grid;
+    }
+}
