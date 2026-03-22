@@ -1,0 +1,26 @@
+.places-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.places-card {
+    background-color: rgb(252, 242, 229);
+    border-radius: 15px;
+    margin: 50px;
+    padding: 20px;
+    transition: 0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.places-card:hover{
+    transform: translateY(-8px);
+    border: 1px solid black;
+}
+
+.places-name{
+    color: darkcyan;
+    text-align: center;
+}
