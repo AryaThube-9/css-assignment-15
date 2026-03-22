@@ -61,3 +61,11 @@ button:hover{
     font-size: 19px;
     
 }
+
+@media screen and (max-width:768px) {
+    .contact-page-container{
+        height: auto;
+       margin-left: auto;
+       width: auto;
+    }
+}
